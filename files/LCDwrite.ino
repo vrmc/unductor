@@ -11,7 +11,9 @@ void setup()
 
 	// Turn on the blacklight and print a message.
 	lcd.backlight();
-	lcd.print("DON'T TOUCH!");
+	lcd.print("Hello, world!");
+  lcd.setCursor(0,1);
+  lcd.print("DON'T TOUCH");
 }
 
 void loop()
